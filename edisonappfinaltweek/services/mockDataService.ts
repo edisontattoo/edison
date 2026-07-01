@@ -5,7 +5,7 @@ import { Artist, StudioLocation, Service } from '../types';
 export const mockArtists: Artist[] = [
   {
     id: '1',
-    name: 'Edison',
+    name: 'Studio Artist',
     specialties: ['Black and Grey Realism', 'Fine Line Tattoos', 'Custom Piercings'],
     bio: 'As the founder and lead artist, Edison combines profound technical skill with a unique artistic vision. He excels in creating breathtakingly realistic black and grey tattoos and offers expert piercing services.',
     portfolioImages: [
@@ -57,7 +57,7 @@ export const mockArtists: Artist[] = [
 export const mockLocations: StudioLocation[] = [
   {
     id: 'loc1',
-    name: 'Edison Tattoo - Lincoln',
+    name: 'Your Studio - Location 1',
     address: '6100 O St, Suite 240, Lincoln, NE 68505',
     phone: '555-1234',
     operatingHours: 'Mon-Sat: 11am - 9pm; Sun: 12pm - 6pm',

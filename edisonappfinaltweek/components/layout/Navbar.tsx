@@ -49,7 +49,7 @@ const Navbar: React.FC = () => {
         <div className="flex items-center justify-between h-20">
           <div className="flex items-center">
             <Link to={AppRoutes.HOME} className="flex-shrink-0 text-white font-orbitron text-2xl font-bold tracking-wider">
-              Edison<span className="text-cyan-400">Tattoo</span>
+              Your<span className="text-cyan-400">Studio</span>
             </Link>
           </div>
           <div className="hidden md:block">

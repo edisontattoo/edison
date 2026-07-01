@@ -77,7 +77,7 @@ const HomePage: React.FC = () => {
         </div>
         <div className="relative z-10">
             <h1 className="text-4xl sm:text-5xl md:text-6xl font-orbitron font-bold text-white mb-4">
-            Welcome to Edison<span className="text-cyan-400">Tattoo</span>
+            Welcome to Your<span className="text-cyan-400">Tattoo</span>
             </h1>
             <p className="text-lg md:text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
             Experience exceptional artistry in tattoos and piercings. Your vision, our expertise.

@@ -33,7 +33,7 @@ const AIChatBot: React.FC = () => {
     }
     
     setIsAiAvailable(true);
-    const systemInstruction = `You are InkBot, a friendly and helpful AI assistant for Edison Tattoo And Body Piercing, a tattoo and piercing shop. 
+    const systemInstruction = `You are InkBot, a friendly and helpful AI assistant for this tattoo and piercing studio. 
     Your goal is to answer questions about tattoos, piercings, appointments, aftercare, and our services. 
     Be informative, concise, and maintain a professional yet approachable tone. 
     If a question is outside your scope (e.g., medical advice beyond general aftercare, legal questions), politely state that you cannot answer it and suggest consulting a professional artist at the studio or a doctor.
@@ -51,7 +51,7 @@ const AIChatBot: React.FC = () => {
 
     setMessages([{ 
         id: 'initial-greeting', 
-        text: "Hello! I'm InkBot, your AI assistant for Edison Tattoo And Body Piercing. How can I help you today? You can ask about services, aftercare, or booking.", 
+        text: "Hello! I'm InkBot, your AI assistant. How can I help you today? How can I help you today? You can ask about services, aftercare, or booking.", 
         sender: 'bot', 
         timestamp: new Date() 
     }]);

@@ -222,7 +222,7 @@ const ReleaseFormViewerPage: React.FC = () => {
         <Card className="p-6 md:p-8 bg-gray-800 printable-card">
             <div id="form-content">
                 <div className="text-center mb-6 pb-4 border-b border-gray-600 print-border">
-                    <h2 className="text-2xl font-bold font-orbitron text-cyan-400">Edison Tattoo And Body Piercing</h2>
+                    <h2 className="text-2xl font-bold font-orbitron text-cyan-400">Your Studio Name</h2>
                     <p className="text-lg font-semibold text-gray-200">Client Consent & Release Form (Confirmation Copy)</p>
                 </div>
 

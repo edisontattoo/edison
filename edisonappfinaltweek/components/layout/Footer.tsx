@@ -48,7 +48,7 @@ const Footer: React.FC = () => {
         <div className="max-w-7xl mx-auto py-8 px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div>
-              <h5 className="font-orbitron text-lg font-semibold text-cyan-400 mb-3">Edison Tattoo And Body Piercing</h5>
+              <h5 className="font-orbitron text-lg font-semibold text-cyan-400 mb-3">Your Studio Name</h5>
               <p className="text-sm">
                 Your premier destination for custom tattoos and professional piercings. Artistry, safety, and creativity combined.
               </p>
@@ -87,7 +87,7 @@ const Footer: React.FC = () => {
             </div>
           </div>
           <div className="mt-8 border-t border-gray-700 pt-8 flex justify-center items-center text-center">
-            <p className="text-sm flex-grow">&copy; {new Date().getFullYear()} Edison Tattoo And Body Piercing. All rights reserved. For demonstration purposes only.</p>
+            <p className="text-sm flex-grow">&copy; {new Date().getFullYear()} Your Studio Name. All rights reserved.</p>
             <button onClick={handleAdminClick} title={isAuthenticated ? 'Logout' : 'Admin Login'} className={`p-2 rounded-full ${isAuthenticated ? 'bg-cyan-500 text-white' : 'text-gray-500 hover:bg-gray-700 hover:text-white'}`}>
                 <Cog6ToothIcon className="w-5 h-5"/>
             </button>

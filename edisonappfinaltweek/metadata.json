@@ -1,6 +1,6 @@
 {
-  "name": "Edison Tattoo And Body Piercing",
-  "description": "A modern web application for Edison Tattoo & Piercing Studio, featuring artist showcases, our studio location, online booking, digital release forms, and AI-powered tattoo design and FAQ services.",
+  "name": "Tattoo Studio App",
+  "description": "A modern web application for tattoo and piercing studios. Features artist showcases, online booking, digital release forms, and AI-powered tattoo design tools.",
   "requestFramePermissions": [],
   "prompt": ""
 }
