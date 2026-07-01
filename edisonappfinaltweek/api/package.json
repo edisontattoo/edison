@@ -1,0 +1,6 @@
+{
+  "name": "edison-tattoo-backend-deprecated",
+  "version": "1.0.0",
+  "description": "This backend is no longer in use. The application has been reverted to a frontend-only solution.",
+  "main": "index.js"
+}

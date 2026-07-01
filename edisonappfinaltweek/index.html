@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Edison Tattoo And Body Piercing</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <style>
+      @media print {
+        /* Hide non-printable elements */
+        .print-hidden, nav, footer {
+          display: none !important;
+        }
+
+        /* Reset the body for a clean print page */
+        body {
+          background-color: #ffffff !important;
+          color: #000000 !important;
+          font-size: 11pt; /* A common font size for print */
+        }
+
+        /* Expand the main content area and add margins */
+        main {
+          padding: 0.75in !important; /* Standard print margins */
+          margin: 0 !important;
+          width: 100% !important;
+          max-width: none !important;
+        }
+        
+        /* Style the main card for printing */
+        .printable-card {
+            background-color: #ffffff !important;
+            color: #000000 !important;
+            box-shadow: none !important;
+            border: none !important;
+        }
+        
+        /* Ensure all text within the card is black for legibility */
+        .printable-card *, .printable-card h2, .printable-card h3, .printable-card p, .printable-card dt, .printable-card dd {
+            color: #000000 !important;
+        }
+
+        /* Style borders for print */
+        .printable-card .print-border {
+          border-color: #b0b0b0 !important; /* A light grey for print */
+        }
+        
+        /* Style images within the card */
+        .printable-card .printable-image {
+          max-width: 250px !important;
+          border: 1px solid #cccccc !important;
+          background-color: #ffffff !important; /* For transparent images */
+        }
+
+        /* Fix grid layout for print by stacking items */
+        .printable-card .print-layout-fix {
+          display: block !important;
+        }
+      }
+    </style>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              'orbitron': ['Orbitron', 'sans-serif'],
+              'sans': ['Roboto', 'sans-serif'],
+            },
+            colors: {
+              cyan: {
+                50: '#ecfeff',
+                100: '#cffafe',
+                200: '#a5f3fc',
+                300: '#67e8f9',
+                400: '#22d3ee',
+                500: '#06b6d4',
+                600: '#0891b2',
+                700: '#0e7490',
+                800: '#155e75',
+                900: '#164e63',
+                950: '#083344',
+              }
+            }
+          }
+        }
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://esm.sh/react-dom@^19.1.0/",
+    "@google/genai": "https://esm.sh/@google/genai@^1.11.0",
+    "react/": "https://esm.sh/react@^19.1.0/",
+    "react": "https://esm.sh/react@^19.1.0",
+    "react-router-dom": "https://esm.sh/react-router-dom@^7.7.1",
+    "jspdf": "https://esm.sh/jspdf@2.5.1",
+    "html2canvas": "https://esm.sh/html2canvas@1.4.1"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-gray-900">
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
